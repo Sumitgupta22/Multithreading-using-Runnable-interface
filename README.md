@@ -6,5 +6,18 @@
 
 - Get the code:
     ```
-    git clone https://github.com/Microsoft/calculator.git
+    class A implements Runnable
+    {
+    public void run(){
+    //code
+    }
+    }
+   class main{
+    public Static void main(String [] arg){
+    A obj = new A();
+    Thread obj1 = new Thread(obj);
+    obj1.start();
+    }
+    }
+    
     ```
