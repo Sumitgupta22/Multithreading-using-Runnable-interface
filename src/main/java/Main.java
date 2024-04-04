@@ -43,7 +43,7 @@ public class Main {
     System.out.println(t2.getId());
     System.out.println(t2.getId());
     t1.start();
-    t2.start();
+    t2.start();//start method
     t3.start();
     System.out.println(t2.getName());
   }
